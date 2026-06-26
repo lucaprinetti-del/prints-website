@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prinbas GmbH — Conseil SAP, Tessin, Suisse</title>
+<meta name="description" content="Prinbas GmbH est un cabinet de conseil SAP à taille humaine basé au Tessin, dirigé par Matteo Prinetti. Partenaire SAP de confiance de Migros et UBS.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="../fr/index.html">PRINBAS<small>&nbsp;GmbH</small></a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <a href="../fr/index.html" >Accueil</a>
+      <a href="../fr/about.html" >À propos</a>
+      <a href="../fr/services.html" >Services</a>
+      <a href="../fr/team.html" >Équipe</a>
+      <a href="../fr/contact.html" class="active">Contact</a>
+    </nav>
+
+    <div style="display:flex; align-items:center; gap:14px;">
+      <div class="lang-switch" aria-label="Language">
+        <a href="../en/contact.html" class="">EN</a>
+        <a href="../de/contact.html" class="">DE</a>
+        <a href="../it/contact.html" class="">IT</a>
+        <a href="../fr/contact.html" class="current">FR</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-nav">
+    <a href="../fr/index.html" >Accueil</a>
+    <a href="../fr/about.html" >À propos</a>
+    <a href="../fr/services.html" >Services</a>
+    <a href="../fr/team.html" >Équipe</a>
+    <a href="../fr/contact.html" class="active">Contact</a>
+    <div class="mobile-lang">
+      <a class="btn btn-ghost" style="padding:6px 12px;font-size:11px;" href="../en/contact.html">EN</a>
+      <a class="btn btn-ghost" style="padding:6px 12px;font-size:11px;" href="../de/contact.html">DE</a>
+      <a class="btn btn-ghost" style="padding:6px 12px;font-size:11px;" href="../it/contact.html">IT</a>
+      <a class="btn btn-ghost" style="padding:6px 12px;font-size:11px;" href="../fr/contact.html">FR</a>
+    </div>
+  </div>
+</header>
+
+
+<div class="page-header">
+  <div class="container">
+    <span class="eyebrow">Contact</span>
+    <h1>Parlons-en.</h1>
+    <p class="lead">Présentez-nous votre environnement SAP et ce que vous cherchez à résoudre. Matteo ou l'un des assistants vous répondra directement.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="contact-grid">
+      <div>
+        <dl class="contact-list">
+          <dt>Bureau</dt>
+          <dd>Prinbas GmbH<br>Via San Gottardo<br>6900 Ticino, Switzerland</dd>
+
+          <dt>E-mail</dt>
+          <dd><a href="mailto:prinex@gmail.com">prinex@gmail.com</a></dd>
+
+          <dt>Téléphone</dt>
+          <dd><a href="tel:+410910000000">+41 91 000 00 00</a></dd>
+
+          <dt>Horaires</dt>
+          <dd>Lundi–vendredi, 08h30–18h00 (CET)</dd>
+        </dl>
+
+        <div class="map-box">
+          <svg viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ticino, Switzerland">
+            <rect width="480" height="220" fill="#ECE8DC"/>
+            <path d="M0,150 L60,120 L120,160 L190,110 L260,150 L330,100 L400,145 L480,115 L480,220 L0,220 Z" fill="#9FC6A4" opacity="0.5"/>
+            <circle cx="260" cy="135" r="6" fill="#1E5631"/>
+            <text x="272" y="139" font-family="IBM Plex Mono, monospace" font-size="13" fill="#16201A">Ticino, CH</text>
+          </svg>
+        </div>
+      </div>
+
+      <div>
+        <form class="contact-form">
+          <div class="field">
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Adresse e-mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="company">Entreprise</label>
+            <input type="text" id="company" name="company">
+          </div>
+          <div class="field">
+            <label for="message">Comment pouvons-nous vous aider ?</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-arrow">Envoyer le message</button>
+          <p class="form-note" data-success="Merci — nous reviendrons vers vous très vite."></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="../fr/index.html">PRINBAS<small>&nbsp;GmbH</small></a>
+        <p>Conseil SAP à taille humaine, depuis le Tessin.</p>
+        <p class="cross-mark">
+          <svg viewBox="0 0 32 32"><rect width="32" height="32" fill="#B4912C"/><rect x="13" y="6" width="6" height="20" fill="#fff"/><rect x="6" y="13" width="20" height="6" fill="#fff"/></svg>
+          Entreprise et équipe suisses
+        </p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../fr/about.html">À propos</a></li>
+          <li><a href="../fr/services.html">Services</a></li>
+          <li><a href="../fr/team.html">Équipe</a></li>
+          <li><a href="../fr/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li>Implémentation SAP</li>
+          <li>Migrations & montées de version</li>
+          <li>ABAP & développements spécifiques</li>
+          <li>Configuration des modules</li>
+          <li>Support & maintenance</li>
+          <li>Conseil stratégique SAP</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Via San Gottardo, Ticino — CH</li>
+          <li>prinex@gmail.com</li>
+          <li>+41 91 000 00 00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Prinbas GmbH. Tous droits réservés.</span>
+      <span>Conçu au Tessin.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
